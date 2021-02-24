@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    background-color: #fff;
+    color:#555;
+    font-family: lato, Arial,sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering:optimizeLegibility;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("./image/Gujarati.jpg");
+    height:50vh;
+}
+
+h1 {
+    margin: 0;
+    background-color: #00b894;
+    text-align: center;
+    color: cornsilk;
+    padding: 15px 15px;
+}
+
+h2{
+    background-color:rgb(230, 182, 182);
+    text-align: center;
+    color: palevioletred
+}
+#first,#last,#address,#contact,#selection{
+    color: rgb(40, 5, 136)
+}
+.btn{
+    color: green;
+}
